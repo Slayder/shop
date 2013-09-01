@@ -1,0 +1,143 @@
+body {
+    overflow-y: scroll;
+    cursor: default;
+}
+
+section {
+    margin: 18px 0;
+}
+
+hr {
+    margin: 50px 0 25px;
+}
+
+td.clickable, th.clickable, tr.clickable td, tr.clickable th, a.clickable, span.clickable {
+    cursor: pointer !important;
+}
+
+.v-middle {
+    vertical-align: middle !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.m-typo {
+    margin-bottom: 18px !important;
+}
+
+.table td.wide, .table th.wide {
+    width: 100%;
+}
+td.nobr, th.nobr {
+    white-space: nowrap;
+}
+
+input[type="submit"], input[type="button"], input[type="file"], button, a.btn {
+    outline: none !important;
+}
+
+#header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#header .search {
+    margin-top: 10px;
+}
+#form-search {
+    margin: 10px 0;
+}
+#cart-widget {
+    position: fixed;
+    background-color: #dff0d8;
+    border: solid 1px #d6e9c6;
+    padding: 10px;
+    color: #468847;
+    z-index: 1001;
+}
+
+#catalog {
+    background-color: #2aabd2;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#catalog nav {
+    margin: 5px 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background-color: #2aabd2;
+}
+#catalog .navbar-collapse {
+    background-color: #2aabd2;
+}
+#catalog .nav a {
+    text-shadow: none;
+    color: #fff;
+}
+#catalog .open > a {
+    background-color: #fff;
+    color: #333;
+}
+#catalog .navbar-header {
+    background-color: #2aabd2;
+}
+#catalog .navbar-toggle:hover {
+    background-color: #2aabd2;
+}
+#catalog .dropdown-menu > li > a {
+    color: #333;
+}
+#catalog .dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: #2aabd2;
+    color: #fff;
+}
+
+#breadcrumbs {
+    background-color: #f5f5f5;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+#breadcrumbs .breadcrumb {
+    margin: 0;
+}
+
+#news .page-header {
+    margin-top: 0;
+}
+
+.shopfront {
+    width: 205px;
+    float: left;
+    margin-right: 6px;
+}
+.shopfront .panel {
+    border-color: #2aabd2;
+}
+.shopfront .panel-heading {
+    background-color: #2aabd2;
+    color: #fff;
+}
+
+.shopfront-img {
+    text-align: center;
+}
+.shopfront-description {
+    margin: 5px 0 18px 0;
+}
+.shopfront-price {
+    line-height: 34px;
+    font-size: 130%
+}
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
